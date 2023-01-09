@@ -123,6 +123,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 MEDIA_URL = "/media/"
 
 MODEL_FILE_PATH = "./MLmodel/mobilenet_v3_large_checkpoint.h5"
+LABELS_TXT = "./MLmodel/labels.txt"
+TEST_IMAGE = "./MyApi/1072416.jpg"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
