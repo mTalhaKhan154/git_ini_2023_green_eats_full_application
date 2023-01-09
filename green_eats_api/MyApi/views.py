@@ -8,7 +8,6 @@ from django.conf import settings
 import os
 from tensorflow.keras.models import load_model
 import numpy as np
-import numpy as np
 
 #removing the tensor flows suggestion to rebuild tensorflow.
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -29,7 +28,7 @@ def preprocess_image(image):
 
     return image
 
-
+# Make api which takes the name,username,email,link of image url, then download that and connect that to the other data base and the user or request setn in the data base
 #Related to API
 class DataViewSet(viewsets.ModelViewSet):
     """
